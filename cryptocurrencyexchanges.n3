@@ -1,0 +1,1770 @@
+@prefix ns1: <http://purl.org/net/bel-epa/cce#> .
+@prefix ns2: <http://daml.umbc.edu/ontologies/cobra/0.4/foaf/> .
+@prefix ns3: <http://www.fao.org/countryprofiles/geoinfo/geopolitical/resource/> .
+@prefix ns4: <http://purl.org/dc/elements/1.1/> .
+@prefix ns5: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns6: <http://daml.umbc.edu/ontologies/cobra/0.4/foaf/foaf/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:D011c82a8-ea6a-4690-bd30-75d2047ca061 a ns1:CryptocurrencyExchange ;
+    ns2:page <http://dogecoindark.net/i2pexchange/> ;
+    ns4:title "ExchangeD.I2P"@en ;
+    ns1:extant true ;
+    ns5:prefLabel "ExchangeD.I2P"@en .
+
+ns1:D01d249bb-caec-46ad-a707-630ce9079386 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://trade.secureae.com> ;
+    ns4:title "Nxt Asset Exchange"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Nxt Asset Exchange"@en .
+
+ns1:D01f8da4f-271e-45e3-b6d5-1b2305064089 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://exmo.com> ;
+    ns4:title "ExMo"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "ExMo"@en .
+
+ns1:D033a5882-fc93-4c6c-9d1c-1adc5a256acc a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coin-swap.net> ;
+    ns4:title "Coin Swap"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns1:voting "paid"@en ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Coin Swap"@en .
+
+ns1:D0627ab78-bce8-49d0-803c-598559b89987 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.mercadobitcoin.com.br> ;
+    ns4:title "Mercado Bitcoin"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Brazil ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "BR"^^xsd:string ;
+    ns5:prefLabel "Mercado Bitcoin"@en .
+
+ns1:D06c74b3a-6926-4cb8-a934-5da96099d853 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.btcexchange.ph> ;
+    ns4:title "BCTExchange"@en ;
+    ns1:countryprofile ns3:Philippines__the ;
+    ns1:extant true ;
+    ns3:codeISO2 "PH"^^xsd:string ;
+    ns5:prefLabel "BCTExchange"@en .
+
+ns1:D087732c1-bb78-4d61-8b6d-e9edc098ed7a a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.komkort.com> ;
+    ns4:title "Komkort"@en ;
+    ns1:api "trading"@en ;
+    ns1:countryprofile ns3:Estonia ;
+    ns1:extant false ;
+    ns3:codeISO2 "EE"^^xsd:string ;
+    ns5:prefLabel "Komkort"@en .
+
+ns1:D090375cb-2cd6-431b-84e4-e1ff40731dc2 a ns1:CryptocurrencyExchange ;
+    ns2:page <http://www.ecoinfund.com> ;
+    ns4:title "Ecoin Fund"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant false ;
+    ns1:voting "free"@en ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "Ecoin Fund"@en .
+
+ns1:D0b142b5e-c18e-489f-b531-86f0d178059b a ns1:CryptocurrencyExchange ;
+    ns2:page <https://796.com> ;
+    ns4:title "796 Exchange"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "796 Exchange"@en .
+
+ns1:D0ccf8f48-f1bf-4ecf-a456-10eeee64cf36 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.quoine.com> ;
+    ns4:title "Quoine"@en ;
+    ns1:countryprofile ns3:Singapore ;
+    ns1:extant true ;
+    ns3:codeISO2 "SG"^^xsd:string ;
+    ns5:prefLabel "Quoine"@en .
+
+ns1:D0cfbc1ed-bc5d-48d4-b174-6a1875b75169 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bittrex.com> ;
+    ns4:title "Bittrex"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Bittrex"@en .
+
+ns1:D0f58fa71-3246-4893-9671-bf229ae07487 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitonic.nl> ;
+    ns4:title "Bitonic"@en ;
+    ns1:countryprofile ns3:Netherlands_the ;
+    ns1:extant true ;
+    ns3:codeISO2 "NL"^^xsd:string ;
+    ns5:prefLabel "Bitonic"@en .
+
+ns1:D0fcd0297-ff38-49ae-9330-e771b9b8d452 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://btctrader.com> ;
+    ns4:title "BTC Trader"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "BTC Trader"@en .
+
+ns1:D107c78cb-fc14-4ca5-b2ea-63b0a45577d0 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.bitcointoyou.com> ;
+    ns4:title "BitcoinToYou"@en ;
+    ns1:countryprofile ns3:Brazil ;
+    ns1:extant true ;
+    ns3:codeISO2 "BR"^^xsd:string ;
+    ns5:prefLabel "BitcoinToYou"@en .
+
+ns1:D11ef8b08-6682-4ea2-b5d4-533b3c3fae19 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coinbase.com> ;
+    ns4:title "Coinbase"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns1:merchant true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Coinbase"@en .
+
+ns1:D127cb455-6970-40b6-928c-5c6c31ca606a a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coin.mx> ;
+    ns4:title "Coin.mx"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Coin.mx"@en .
+
+ns1:D12976aa9-e974-4c9c-8ea0-66b53e2f6614 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://yunbi.com> ;
+    ns4:title "Yunbi"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant false ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "Yunbi"@en .
+
+ns1:D163f654e-ad88-412f-a10c-e0d82af4e706 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://empoex.com> ;
+    ns4:title "EmpoEX"@en ;
+    ns1:countryprofile ns3:Singapore ;
+    ns1:extant true ;
+    ns3:codeISO2 "SG"^^xsd:string ;
+    ns5:prefLabel "EmpoEX"@en .
+
+ns1:D16696aba-51c8-425e-8cbd-d9a16ea6b657 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.crypteon.net> ;
+    ns4:title "Crypteon"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Crypteon"@en .
+
+ns1:D168860d9-3e71-4740-a372-34dafbcbfcc7 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.cryptopia.co.nz> ;
+    ns4:title "Cryptopia"@en ;
+    ns1:countryprofile ns3:New_Zealand ;
+    ns1:extant true ;
+    ns3:codeISO2 "NZ"^^xsd:string ;
+    ns5:prefLabel "Cryptopia"@en .
+
+ns1:D16996bce-a369-4948-b14a-2ae8f5621fa5 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.europex.eu> ;
+    ns4:title "Europex"@en ;
+    ns1:extant false ;
+    ns5:prefLabel "Europex"@en .
+
+ns1:D1864b69a-c6d1-41c5-95e7-179b87cd4ea2 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coinnext.com> ;
+    ns4:title "Coin Next"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Belgium ;
+    ns1:extant false ;
+    ns3:codeISO2 "BE"^^xsd:string ;
+    ns5:prefLabel "Coin Next"@en .
+
+ns1:D1a345430-e27e-45e0-82f7-32964e1f6607 a ns1:CryptocurrencyExchange ;
+    ns2:page <http://blaketrader.com> ;
+    ns4:title "Blaketrader"@en ;
+    ns1:extant true ;
+    ns5:prefLabel "Blaketrader"@en .
+
+ns1:D1ba1d681-474c-44de-80ef-f422b794ce5e a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.bitfinex.com> ;
+    ns4:title "Bitfinex"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:British_Virgin_Islands ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "VG"^^xsd:string ;
+    ns5:prefLabel "Bitfinex"@en .
+
+ns1:D1ce63bb1-7882-45eb-8065-854e5852b78b a ns1:CryptocurrencyExchange ;
+    ns2:page <https://c-cex.com> ;
+    ns4:title "C-Cex"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Poland ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns1:merchant true ;
+    ns1:voting "free"@en ;
+    ns3:codeISO2 "PL"^^xsd:string ;
+    ns5:prefLabel "C-Cex"@en .
+
+ns1:D1d0a1ef5-e8f0-491c-95ee-1ce5310756da a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitcoin-central.net> ;
+    ns4:title "Bitcoin Central"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:France ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "FR"^^xsd:string ;
+    ns5:prefLabel "Bitcoin Central"@en .
+
+ns1:D1ddc29a4-8ea5-472d-ba7c-101cb6ae2a84 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://justcoin.com> ;
+    ns4:title "Justcoin"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Norway ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "NO"^^xsd:string ;
+    ns5:prefLabel "Justcoin"@en .
+
+ns1:D1e6786ff-14b3-482b-a678-13185f030eb3 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coincheck.jp> ;
+    ns4:title "Coincheck"@en ;
+    ns1:countryprofile ns3:Japan ;
+    ns1:extant true ;
+    ns3:codeISO2 "JP"^^xsd:string ;
+    ns5:prefLabel "Coincheck"@en .
+
+ns1:D1e7e4c72-dcf1-4acc-9eb2-229d5f2a61e2 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://poloniex.com> ;
+    ns4:title "Poloniex"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns1:voting "free"@en ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Poloniex"@en .
+
+ns1:D2161273e-e2e6-439c-b8d8-0c0a947bf210 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.loyalbit.com> ;
+    ns4:title "Loyalbit"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "Loyalbit"@en .
+
+ns1:D222a6798-ca69-4de3-8d45-998f086a7451 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://indacoin.com> ;
+    ns4:title "Indacoin"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "Indacoin"@en .
+
+ns1:D22d78611-a3b5-450c-a997-221c6149dcf1 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://leoxchange.com> ;
+    ns4:title "LEOxChange"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "LEOxChange"@en .
+
+ns1:D244a2c47-003e-43a6-8013-a94f6778560e a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitcoin-24.com> ;
+    ns4:title "Bitcoin-24"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "Bitcoin-24"@en .
+
+ns1:D2558e05a-f3f3-4310-a4e1-692cec96f19f a ns1:CryptocurrencyExchange ;
+    ns2:page <https://localbitcoins.com> ;
+    ns4:title "LocalBitcoins"@en ;
+    ns1:extant true ;
+    ns5:prefLabel "LocalBitcoins"@en .
+
+ns1:D2616d8d1-8b56-4414-a4cb-54cba4c0f2ca a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.korbit.co.kr> ;
+    ns4:title "Korbit"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Republic_of_Korea__the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "KR"^^xsd:string ;
+    ns5:prefLabel "Korbit"@en .
+
+ns1:D268e8118-c3ca-4863-bc40-730ccf850d92 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://ice3x.com> ;
+    ns4:title "Ice3x"@en ;
+    ns1:countryprofile ns3:South_Africa ;
+    ns1:extant true ;
+    ns3:codeISO2 "ZA"^^xsd:string ;
+    ns5:prefLabel "Ice3x"@en .
+
+ns1:D26cd430b-83c8-4db8-a34d-98d5ed97280e a ns1:CryptocurrencyExchange ;
+    ns2:page <https://leobit.net> ;
+    ns4:title "LEObit"@en ;
+    ns1:countryprofile ns3:British_Virgin_Islands ;
+    ns1:extant true ;
+    ns3:codeISO2 "VG"^^xsd:string ;
+    ns5:prefLabel "LEObit"@en .
+
+ns1:D282d3510-78fa-4ce2-b0e4-289c4905b250 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.btc2day.cz> ;
+    ns4:title "btc2day"@en ;
+    ns1:countryprofile ns3:Czech_Republic_the ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CZ"^^xsd:string ;
+    ns5:prefLabel "btc2day"@en .
+
+ns1:D28d7d789-f136-4c60-b1af-8016f4adca0a a ns1:CryptocurrencyExchange ;
+    ns2:page <https://anxpro.com> ;
+    ns4:title "Anx Pro"@en ;
+    ns1:api "listing"@en ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns5:prefLabel "Anx Pro"@en .
+
+ns1:D2a94faea-0a2b-420f-ac75-a6f9b99c3b16 a ns1:CryptocurrencyExchange ;
+    ns2:page <http://alts.trade> ;
+    ns4:title "Alts.trade"@en ;
+    ns1:countryprofile ns3:Israel ;
+    ns1:extant true ;
+    ns3:codeISO2 "IL"^^xsd:string ;
+    ns5:prefLabel "Alts.trade"@en .
+
+ns1:D2ac10740-a57b-43d0-adc8-5202920c1d11 a ns1:CryptocurrencyExchange ;
+    ns2:page <http://www.btc38.com> ;
+    ns4:title "BTC38"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "BTC38"@en .
+
+ns1:D2e8b6ab3-b958-4232-aa34-5d3280993d0d a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.vaultofsatoshi.com> ;
+    ns4:title "Vault of Satoshi"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Canada ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CA"^^xsd:string ;
+    ns5:prefLabel "Vault of Satoshi"@en .
+
+ns1:D2f52215c-7395-4c47-b76b-13e5f77c8ebe a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.cavirtex.com> ;
+    ns4:title "CAVirtex"@en ;
+    ns1:countryprofile ns3:Canada ;
+    ns1:extant false ;
+    ns3:codeISO2 "CA"^^xsd:string ;
+    ns5:prefLabel "CAVirtex"@en .
+
+ns1:D30a25ebd-2f19-4774-8653-7a1ab517b070 a ns1:CryptocurrencyExchange ;
+    ns2:page <http://netagio.com> ;
+    ns4:title "Netagio"@en ;
+    ns1:countryprofile ns3:Cote_d_Ivoire ;
+    ns1:extant false ;
+    ns3:codeISO2 "CI"^^xsd:string ;
+    ns5:prefLabel "Netagio"@en .
+
+ns1:D3168f80d-8207-40c0-8598-65aac3ab4df1 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://btc-market.org> ;
+    ns4:title "BTC Market"@en ;
+    ns1:countryprofile ns3:Viet_Nam ;
+    ns1:extant false ;
+    ns1:voting "paid"@en ;
+    ns3:codeISO2 "VN"^^xsd:string ;
+    ns5:prefLabel "BTC Market"@en .
+
+ns1:D35e9358b-ea44-47b8-a14b-3e089c3cd35a a ns1:CryptocurrencyExchange ;
+    ns2:page <http://liliontransfer.org> ;
+    ns4:title "Lilion Transfer"@en ;
+    ns1:countryprofile ns3:Marshall_Islands__the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "MH"^^xsd:string ;
+    ns5:prefLabel "Lilion Transfer"@en .
+
+ns1:D369c105d-1d43-4a91-a038-7e822a1db616 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.swaphole.com> ;
+    ns4:title "Swaphole"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Austria ;
+    ns1:extant false ;
+    ns1:voting "paid"@en ;
+    ns3:codeISO2 "AT"^^xsd:string ;
+    ns5:prefLabel "Swaphole"@en .
+
+ns1:D3776bb15-e23c-4aca-8797-9ec440045534 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://ibwt.co.uk> ;
+    ns4:title "In Bitcoin We Trust"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "In Bitcoin We Trust"@en .
+
+ns1:D37b23b9c-3bc7-4170-9487-08f13239d2da a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.1coin.com> ;
+    ns4:title "1 Coin"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "1 Coin"@en .
+
+ns1:D388d483f-8033-4cd6-baca-1e97b689d296 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.bitebi9.com> ;
+    ns4:title "bitebi9"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "bitebi9"@en .
+
+ns1:D39bed2d1-1626-49d2-bac3-ac8b193e4389 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.coinexd.com> ;
+    ns4:title "CoinExd"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant false ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "CoinExd"@en .
+
+ns1:D3b1be84e-fb1f-461d-8b39-f419bdd94789 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coinfresh.com> ;
+    ns4:title "Coin Fresh"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Canada ;
+    ns1:extant false ;
+    ns3:codeISO2 "CA"^^xsd:string ;
+    ns5:prefLabel "Coin Fresh"@en .
+
+ns1:D3c134757-4ddd-4bfc-8f02-b032c6414aa1 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://hitbtc.com> ;
+    ns4:title "HitBtc"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Netherlands_the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns1:voting "free"@en ;
+    ns3:codeISO2 "NL"^^xsd:string ;
+    ns5:prefLabel "HitBtc"@en .
+
+ns1:D3cc717af-7953-45a5-bf5a-2c60bcd3facf a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.clevercoin.com> ;
+    ns4:title "CleverCoin"@en ;
+    ns1:countryprofile ns3:Netherlands_the ;
+    ns1:extant true ;
+    ns3:codeISO2 "NL"^^xsd:string ;
+    ns5:prefLabel "CleverCoin"@en .
+
+ns1:D3d21db63-269b-42c0-9d92-547566ca126f a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.cryex.com> ;
+    ns4:title "CRYEX"@en ;
+    ns1:countryprofile ns3:Sweden ;
+    ns1:extant true ;
+    ns3:codeISO2 "SE"^^xsd:string ;
+    ns5:prefLabel "CRYEX"@en .
+
+ns1:D3d649fa8-017f-46d5-8de6-6c0e9871e988 a ns1:CryptocurrencyExchange ;
+    ns2:page <http://mercuryex.com> ;
+    ns4:title "Mercury Exchange"@en ;
+    ns1:extant true ;
+    ns5:prefLabel "Mercury Exchange"@en .
+
+ns1:D3d6579e7-7b49-47ce-9faa-e096334dedb6 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://mcxnow.com> ;
+    ns4:title "McXnow"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "McXnow"@en .
+
+ns1:D4044810e-6931-4bef-9308-4218b4452d70 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.coins-e.com> ;
+    ns4:title "Coins-E"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:India ;
+    ns1:extant false ;
+    ns3:codeISO2 "IN"^^xsd:string ;
+    ns5:prefLabel "Coins-E"@en .
+
+ns1:D4434c8fa-6581-4878-9c72-2d847e6cb304 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://monatr.jp> ;
+    ns4:title "Mona Tore"@en ;
+    ns1:countryprofile ns3:Japan ;
+    ns1:extant true ;
+    ns3:codeISO2 "JP"^^xsd:string ;
+    ns5:prefLabel "Mona Tore"@en .
+
+ns1:D4533ab6d-a5c9-4995-aceb-5f1ddf96d2b2 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://cryptonit.net> ;
+    ns4:title "Cryptonit"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "Cryptonit"@en .
+
+ns1:D469b519e-772e-4a6c-813c-d39dba580c9e a ns1:CryptocurrencyExchange ;
+    ns2:page <http://www.jubi.com> ;
+    ns4:title "Jubi"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "Jubi"@en .
+
+ns1:D49bdd308-9737-4f09-8f25-2178fd995ec6 a ns1:CryptocurrencyExchange ;
+    ns2:page <http://basebit.com.br> ;
+    ns4:title "Basebit"@en ;
+    ns1:countryprofile ns3:Belize ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "BZ"^^xsd:string ;
+    ns5:prefLabel "Basebit"@en .
+
+ns1:D4b50139d-58eb-4e03-86e3-a85b2bf8e259 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coinmate.io> ;
+    ns4:title "CoinMate"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "CoinMate"@en .
+
+ns1:D4b80d8e3-40f7-4483-a008-f9780210274c a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.livecoin.net> ;
+    ns4:title "Livecoin"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "Livecoin"@en .
+
+ns1:D4bb39b15-73b3-4bfe-8558-affbc5b207b6 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://therocktrading.com> ;
+    ns4:title "The Rock Trading"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Malta ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "MT"^^xsd:string ;
+    ns5:prefLabel "The Rock Trading"@en .
+
+ns1:D4c713ac6-7ece-4492-a5dd-007b000cd5cd a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.coinspot.com.au> ;
+    ns4:title "Coinspot"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Australia ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "AU"^^xsd:string ;
+    ns5:prefLabel "Coinspot"@en .
+
+ns1:D4cd5481c-4312-4238-9bbb-9a6d63bebc50 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://btcxindia.com> ;
+    ns4:title "Btc X India"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:India ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "IN"^^xsd:string ;
+    ns5:prefLabel "Btc X India"@en .
+
+ns1:D4d5ae55e-1774-4635-9dcd-5b164bf36df7 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://mexbt.com/> ;
+    ns4:title "meXBT"@en ;
+    ns1:countryprofile ns3:Mexico ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "MX"^^xsd:string ;
+    ns5:prefLabel "meXBT"@en .
+
+ns1:D4d9be1b6-ae39-4625-a222-ccacb91afcee a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.bitstock.cz> ;
+    ns4:title "Bitstock"@en ;
+    ns1:countryprofile ns3:Czech_Republic_the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CZ"^^xsd:string ;
+    ns5:prefLabel "Bitstock"@en .
+
+ns1:D4fcb1575-38ea-4ce0-ad28-a5bc07f15909 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://masterxchange.com> ;
+    ns4:title "Master Xchange"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:France ;
+    ns1:extant false ;
+    ns3:codeISO2 "FR"^^xsd:string ;
+    ns5:prefLabel "Master Xchange"@en .
+
+ns1:D52e67920-a1e8-43fc-a6c0-c47f795dd6aa a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitx.co.za> ;
+    ns4:title "Bit X"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:South_Africa ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "ZA"^^xsd:string ;
+    ns5:prefLabel "Bit X"@en .
+
+ns1:D58f48faa-8062-4ddd-b0de-e249ba9c10c9 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://qex.la> ;
+    ns4:title "Qex.la"@en ;
+    ns1:countryprofile ns3:Luxembourg ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "LU"^^xsd:string ;
+    ns5:prefLabel "Qex.la"@en .
+
+ns1:D594e9645-b4ec-4bbb-983d-40018e4f2af4 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://btcchina.com> ;
+    ns4:title "BTCChina"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "BTCChina"@en .
+
+ns1:D5c3b7d3f-2f9a-4fee-aa64-5278cd1ffcd2 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.btcxchange.ro> ;
+    ns4:title "BTC Xchange"@en ;
+    ns1:countryprofile ns3:Romania ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "RO"^^xsd:string ;
+    ns5:prefLabel "BTC Xchange"@en .
+
+ns1:D5f160fd6-dcca-4251-8162-6f84b1fa798e a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bx.in.th> ;
+    ns4:title "Bx Thailand"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Thailand ;
+    ns1:extant true ;
+    ns3:codeISO2 "TH"^^xsd:string ;
+    ns5:prefLabel "Bx Thailand"@en .
+
+ns1:D5f7dcd3b-d354-464f-aebc-0a4a03dd01e0 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://alterdice.com> ;
+    ns4:title "Alter Dice"@en ;
+    ns1:extant true ;
+    ns5:prefLabel "Alter Dice"@en .
+
+ns1:D62f220ba-9945-424f-b216-72de5f3fa2ab a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.bitorado.com> ;
+    ns4:title "Bitorado"@en ;
+    ns1:countryprofile ns3:Poland ;
+    ns1:extant false ;
+    ns1:merchant true ;
+    ns3:codeISO2 "PL"^^xsd:string ;
+    ns5:prefLabel "Bitorado"@en .
+
+ns1:D639861e7-bc6b-44c9-9ee3-5cb324ffeb92 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitcurex.com> ;
+    ns4:title "Bitcurex"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Poland ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "PL"^^xsd:string ;
+    ns5:prefLabel "Bitcurex"@en .
+
+ns1:D64df3e62-2b9c-41cb-9662-906aa39ea30e a ns1:CryptocurrencyExchange ;
+    ns2:page <http://www.btceur.eu> ;
+    ns4:title "Bitcoin Euro Exchange"@en ;
+    ns1:countryprofile ns3:Czech_Republic_the ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CZ"^^xsd:string ;
+    ns5:prefLabel "Bitcoin Euro Exchange"@en .
+
+ns1:D69eca00a-4287-4486-8814-c88990ea2f96 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://crypto-trade.com> ;
+    ns4:title "Crypto Trade"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "Crypto Trade"@en .
+
+ns1:D6a6ed023-812b-4b3f-92ff-11ebba9fd906 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://usecryptos.com> ;
+    ns4:title "useCryptos"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Belize ;
+    ns1:extant true ;
+    ns1:voting "free"@en ;
+    ns3:codeISO2 "BZ"^^xsd:string ;
+    ns5:prefLabel "useCryptos"@en .
+
+ns1:D6b2e6e5a-dadd-4207-a873-db1d90446a82 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitkonan.com> ;
+    ns4:title "BitKonan"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Croatia ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "HR"^^xsd:string ;
+    ns5:prefLabel "BitKonan"@en .
+
+ns1:D6cb0de35-1b5c-4a1e-8e5d-8255d5535b31 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitnz.com> ;
+    ns4:title "BitNZ"@en ;
+    ns1:countryprofile ns3:New_Zealand ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "NZ"^^xsd:string ;
+    ns5:prefLabel "BitNZ"@en .
+
+ns1:D6d0d883a-23dc-44f6-8416-31a101ceb834 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.bityes.com> ;
+    ns4:title "BitYes"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant false ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "BitYes"@en .
+
+ns1:D6dc4f507-a2c7-4c08-972a-681f1287a367 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://nxt-e.com> ;
+    ns4:title "NXT-e"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "NXT-e"@en .
+
+ns1:D6f318554-6620-4484-9b53-bf38b5b27e71 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bter.com> ;
+    ns4:title "Bter"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "Bter"@en .
+
+ns1:D6f864200-af98-4ada-a8a9-de288dc03ff1 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitsimple.com> ;
+    ns4:title "Bit Simple"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Bit Simple"@en .
+
+ns1:D70f48337-ee11-464d-85a6-1c71f2b554a6 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.ccedk.com> ;
+    ns4:title "CCEDK"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Denmark ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns1:merchant true ;
+    ns3:codeISO2 "DK"^^xsd:string ;
+    ns5:prefLabel "CCEDK"@en .
+
+ns1:D7112c02e-5acf-45ae-9803-609bfa545d5e a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.melotic.com> ;
+    ns4:title "Melotic"@en ;
+    ns1:api "trading"@en ;
+    ns1:extant true ;
+    ns5:prefLabel "Melotic"@en .
+
+ns1:D713debc2-eeb4-4c07-901c-9868200c92cd a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coinomat.com> ;
+    ns4:title "Coinomat"@en ;
+    ns1:countryprofile ns3:British_Virgin_Islands ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "VG"^^xsd:string ;
+    ns5:prefLabel "Coinomat"@en .
+
+ns1:D713e80e7-0ecd-407d-8eed-906fdc1349f1 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://dashcurex.com> ;
+    ns4:title "Dashcurex"@en ;
+    ns1:countryprofile ns3:Poland ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "PL"^^xsd:string ;
+    ns5:prefLabel "Dashcurex"@en .
+
+ns1:D718ccab2-36ea-48fd-93d2-89a4e59233ea a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.bitcoin.de> ;
+    ns4:title "Bitcoin Deutschland"@en ;
+    ns1:countryprofile ns3:Germany ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "DE"^^xsd:string ;
+    ns5:prefLabel "Bitcoin Deutschland"@en .
+
+ns1:D71bcf9f0-e9dc-4e96-ac75-08be09017a5a a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.swisscex.com> ;
+    ns4:title "Swiss CEx"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Switzerland ;
+    ns1:extant false ;
+    ns3:codeISO2 "CH"^^xsd:string ;
+    ns5:prefLabel "Swiss CEx"@en .
+
+ns1:D7270ad8d-aa0c-48a4-814f-f119f51836c2 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://cex.io> ;
+    ns4:title "Cex.io"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "Cex.io"@en .
+
+ns1:D72a94644-09d1-478a-9dee-c3273e2e6ccf a ns1:CryptocurrencyExchange ;
+    ns2:page <https://24change.com> ;
+    ns4:title "24 Change"@en ;
+    ns1:countryprofile ns3:Russian_Federation__the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "RU"^^xsd:string ;
+    ns5:prefLabel "24 Change"@en .
+
+ns1:D72afc7f5-0c99-4cbd-96e8-870ebda61415 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.gatecoin.com> ;
+    ns4:title "Gatecoin"@en ;
+    ns1:extant true ;
+    ns5:prefLabel "Gatecoin"@en .
+
+ns1:D791e872a-8fd3-41b9-ad39-8391827d9c96 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://banx.io> ;
+    ns4:title "BANX.IO"@en ;
+    ns1:countryprofile ns3:Panama ;
+    ns1:extant true ;
+    ns3:codeISO2 "PA"^^xsd:string ;
+    ns5:prefLabel "BANX.IO"@en .
+
+ns1:D79bcb87b-100b-4502-ad82-9d7847b0847e a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.southxchange.com> ;
+    ns4:title "SouthXchange"@en ;
+    ns1:countryprofile ns3:Argentina ;
+    ns1:extant true ;
+    ns3:codeISO2 "AR"^^xsd:string ;
+    ns5:prefLabel "SouthXchange"@en .
+
+ns1:D7b2a32b0-d444-44a1-8be8-816cdf95e69b a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coinfloor.co.uk> ;
+    ns4:title "Coin Floor"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "Coin Floor"@en .
+
+ns1:D7b8d12de-7150-41a1-ba3e-4432563b6469 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://vircurex.com> ;
+    ns4:title "Vircurex"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Belize ;
+    ns1:extant true ;
+    ns3:codeISO2 "BZ"^^xsd:string ;
+    ns5:prefLabel "Vircurex"@en .
+
+ns1:D7c4edf6c-7b21-4e3b-ba2e-acff70a3c747 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.bitstreet.in> ;
+    ns4:title "Bitstreet"@en ;
+    ns1:countryprofile ns3:Poland ;
+    ns1:extant false ;
+    ns3:codeISO2 "PL"^^xsd:string ;
+    ns5:prefLabel "Bitstreet"@en .
+
+ns1:D7d3b4686-06d3-4c33-a2be-2e8c286273dc a ns1:CryptocurrencyExchange ;
+    ns2:page <http://www.exxcoin.com> ;
+    ns4:title "Ex Coin"@en ;
+    ns1:countryprofile ns3:Spain ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns1:voting "free"@en ;
+    ns3:codeISO2 "ES"^^xsd:string ;
+    ns5:prefLabel "Ex Coin"@en .
+
+ns1:D7ee56a17-87df-43e6-af80-9831f058c2b5 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.okcoin.cn> ;
+    ns4:title "OKCoin.cn"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "OKCoin.cn"@en .
+
+ns1:D80b78b5b-84b3-4c63-b24b-542edfdc042c a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.vaultoro.com> ;
+    ns4:title "Vaultoro"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "Vaultoro"@en .
+
+ns1:D811b7c88-dcfa-4662-affb-308b4713119d a ns1:CryptocurrencyExchange ;
+    ns2:page <https://campbx.com> ;
+    ns4:title "Camp Bx"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Camp Bx"@en .
+
+ns1:D81491f33-3e65-471f-93a2-92bbb8b18687 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.huobi.com> ;
+    ns4:title "Huobi"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "Huobi"@en .
+
+ns1:D81b3f9cc-3cfd-4e43-8be8-3d39caf0f533 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.247exchange.com> ;
+    ns4:title "247exchange"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "247exchange"@en .
+
+ns1:D84c336b2-5a3a-4d7d-8088-e346e1837c4d a ns1:CryptocurrencyExchange ;
+    ns2:page <http://www.ripplecharts.com> ;
+    ns4:title "Ripple Gateways"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Ripple Gateways"@en .
+
+ns1:D84dc655d-6137-4d3a-9eba-f585c159ac2a a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coinsquare.io> ;
+    ns4:title "Coinsquare"@en ;
+    ns1:countryprofile ns3:Canada ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CA"^^xsd:string ;
+    ns5:prefLabel "Coinsquare"@en .
+
+ns1:D8531ac28-7c6c-4aec-b918-68bf8e23096d a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.fybse.se> ;
+    ns4:title "FYB-SE"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Switzerland ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CH"^^xsd:string ;
+    ns5:prefLabel "FYB-SE"@en .
+
+ns1:D8710e6d0-d1f6-4545-ab90-5349cbb06bfe a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitalo.com> ;
+    ns4:title "Bitalo"@en ;
+    ns1:countryprofile ns3:Germany ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "DE"^^xsd:string ;
+    ns5:prefLabel "Bitalo"@en .
+
+ns1:D87bb2a88-20ed-4a87-9854-e45135fe6918 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coinaccel.com> ;
+    ns4:title "Coin Accel"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Coin Accel"@en .
+
+ns1:D885f4c64-d7cf-4e7d-88ac-57c3c8823448 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.coinsetter.com> ;
+    ns4:title "coinsetter"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "coinsetter"@en .
+
+ns1:D8880011a-9171-417b-ab70-b2d09ebe990d a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.globobit.com> ;
+    ns4:title "GLOBObit"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant false ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "GLOBObit"@en .
+
+ns1:D8951096f-fe98-4eb6-9891-26e4a101e5ba a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.palth.net> ;
+    ns4:title "Palth"@en ;
+    ns1:countryprofile ns3:Thailand ;
+    ns1:extant false ;
+    ns3:codeISO2 "TH"^^xsd:string ;
+    ns5:prefLabel "Palth"@en .
+
+ns1:D8d12a516-43d0-4363-a1d1-a6bafb7e3eb1 a ns1:CryptocurrencyExchange ;
+    ns2:page <http://icbit.se> ;
+    ns4:title "Ic Bit"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Russian_Federation__the ;
+    ns1:extant true ;
+    ns3:codeISO2 "RU"^^xsd:string ;
+    ns5:prefLabel "Ic Bit"@en .
+
+ns1:D8f0ad09e-633d-4901-acaf-f6cb17041d63 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://counterwallet.co> ;
+    ns4:title "Counterparty DEX"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Counterparty DEX"@en .
+
+ns1:D8fdc6c72-673d-48c0-8b72-379cd15f3f22 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://yacuna.com> ;
+    ns4:title "Yacuna"@en ;
+    ns1:countryprofile ns3:Germany ;
+    ns1:extant false ;
+    ns3:codeISO2 "DE"^^xsd:string ;
+    ns5:prefLabel "Yacuna"@en .
+
+ns1:D90a3a121-66f7-4b61-84f9-d68ff043d778 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://metaexchange.info> ;
+    ns4:title "Metaexchange"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Metaexchange"@en .
+
+ns1:D9138e6a1-2647-44f7-acee-ccd93acc1abe a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.fybsg.com> ;
+    ns4:title "FBY-SG"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Singapore ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "SG"^^xsd:string ;
+    ns5:prefLabel "FBY-SG"@en .
+
+ns1:D92156e62-ecfd-4f22-8d80-4ce43d9af6d3 a ns1:CryptocurrencyExchange ;
+    ns2:page <http://www.superchange.ru> ;
+    ns4:title "Super Change"@en ;
+    ns1:countryprofile ns3:Russian_Federation__the ;
+    ns1:extant true ;
+    ns3:codeISO2 "RU"^^xsd:string ;
+    ns5:prefLabel "Super Change"@en .
+
+ns1:D92297bc0-7020-47bc-aa59-a1f4b9f57674 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.vaultex.io> ;
+    ns4:title "VaultEx"@en ;
+    ns1:countryprofile ns3:Canada ;
+    ns1:extant false ;
+    ns3:codeISO2 "CA"^^xsd:string ;
+    ns5:prefLabel "VaultEx"@en .
+
+ns1:D93bb47b6-c63d-494c-bc83-4868f8168050 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://zaif.jp> ;
+    ns4:title "Zaif"@en ;
+    ns1:countryprofile ns3:Japan ;
+    ns1:extant true ;
+    ns3:codeISO2 "JP"^^xsd:string ;
+    ns5:prefLabel "Zaif"@en .
+
+ns1:D96291c47-2b13-4e4d-87ed-8d98cc10ae7b a ns1:CryptocurrencyExchange ;
+    ns6:page <https://1ex.trade> ;
+    ns4:title "1Ex.Trade"@en ;
+    ns1:api "trading"@en ;
+    ns1:countryprofile ns3:Panama ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "PA"^^xsd:string ;
+    ns5:prefLabel "1ex.trade"@en .
+
+ns1:D965cdadb-ca60-465d-b36f-957384b8c4a9 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://go-trade.com> ;
+    ns4:title "Go Trade"@en ;
+    ns1:countryprofile ns3:Ukraine ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "UA"^^xsd:string ;
+    ns5:prefLabel "Go Trade"@en .
+
+ns1:D96ab2a47-9c58-4b85-b38e-151f5da3df3a a ns1:CryptocurrencyExchange ;
+    ns2:page <https://cryptoine.com> ;
+    ns4:title "Cryptoine"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Canada ;
+    ns1:extant false ;
+    ns1:voting "free"@en ;
+    ns3:codeISO2 "CA"^^xsd:string ;
+    ns5:prefLabel "Cryptoine"@en .
+
+ns1:D98bdf50c-4598-4c2c-b3dc-f19621d73ec2 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.bitcoin.co.id> ;
+    ns4:title "Bitcoin Indonesia"@en ;
+    ns1:countryprofile ns3:Indonesia ;
+    ns1:extant true ;
+    ns3:codeISO2 "ID"^^xsd:string ;
+    ns5:prefLabel "Bitcoin Indonesia"@en .
+
+ns1:D98e8fd8a-6b1c-4f40-b485-5cc1d13def26 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://paymium.com> ;
+    ns4:title "Paymium"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:France ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns1:merchant true ;
+    ns3:codeISO2 "FR"^^xsd:string ;
+    ns5:prefLabel "Paymium"@en .
+
+ns1:D991209d2-11a5-4795-9353-4c9d52283ccc a ns1:CryptocurrencyExchange ;
+    ns2:page <http://www.coinffeine.com> ;
+    ns4:title "Coinffeine"@en ;
+    ns1:extant true ;
+    ns5:prefLabel "Coinffeine"@en .
+
+ns1:D99b0e5ba-0519-43f0-bb6b-74833ecc97c4 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://alcurex.org> ;
+    ns4:title "alcurEX"@en ;
+    ns1:countryprofile ns3:Finland ;
+    ns1:extant true ;
+    ns3:codeISO2 "FI"^^xsd:string ;
+    ns5:prefLabel "alcurEX"@en .
+
+ns1:D9adbb5db-936c-4042-8780-8906024f52cd a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitx.co> ;
+    ns4:title "BITX"@en ;
+    ns1:countryprofile ns3:Singapore ;
+    ns1:extant true ;
+    ns3:codeISO2 "SG"^^xsd:string ;
+    ns5:prefLabel "BITX"@en .
+
+ns1:D9b8d46bb-db48-4549-a5dc-c90fe028cdcb a ns1:CryptocurrencyExchange ;
+    ns2:page <http://www.btctrade.com> ;
+    ns4:title "BtcTrade"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "BtcTrade"@en .
+
+ns1:D9bd97009-ad67-483f-b4ca-869adc606dd9 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://agx.io> ;
+    ns4:title "Austin Global Exchange"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns1:voting "free"@en ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Austin Global Exchange"@en .
+
+ns1:Da037b1cc-9d5a-4c60-b9c1-b42624e5d919 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.kraken.com> ;
+    ns4:title "Kraken"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Kraken"@en .
+
+ns1:Da0ca7cad-849f-43e4-bbf4-8fe64ee44839 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://lazycoins.com> ;
+    ns4:title "Lazy Coins"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant false ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "Lazy Coins"@en .
+
+ns1:Da0d2cc14-2f16-4a38-a861-3798ce8b73d7 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.btcbox.co.jp> ;
+    ns4:title "BTCBOX"@en ;
+    ns1:countryprofile ns3:Japan ;
+    ns1:extant true ;
+    ns3:codeISO2 "JP"^^xsd:string ;
+    ns5:prefLabel "BTCBOX"@en .
+
+ns1:Da2052f35-80c5-476c-86e9-0e49a387358d a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.bitquick.co> ;
+    ns4:title "BitQuick"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "BitQuick"@en .
+
+ns1:Da245b3df-85cd-46fd-88fd-27efa3e34d73 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.uniltc.com> ;
+    ns4:title "Uniltc"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "Uniltc"@en .
+
+ns1:Da27fab60-51f2-4778-98f5-bd1f5462c5cb a ns1:CryptocurrencyExchange ;
+    ns2:page <https://exmoney.com> ;
+    ns4:title "Ex Money"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Belize ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "BZ"^^xsd:string ;
+    ns5:prefLabel "Ex Money"@en .
+
+ns1:Da3bfe8c2-a3ab-41f1-a412-eec5cd08018d a ns1:CryptocurrencyExchange ;
+    ns2:page <https://prelude.io> ;
+    ns4:title "Prelude"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Switzerland ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CH"^^xsd:string ;
+    ns5:prefLabel "Prelude"@en .
+
+ns1:Da63a2e1d-2746-4bf5-9289-78f110fc3a7d a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coinmkt.com> ;
+    ns4:title "Coin Mkt"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Coin Mkt"@en .
+
+ns1:Da6fc4a13-9419-4301-aba0-04c912a5ef3c a ns1:CryptocurrencyExchange ;
+    ns2:page <http://multigateway.org> ;
+    ns4:title "Nxt Multigateway"@en ;
+    ns1:extant true ;
+    ns5:prefLabel "Nxt Multigateway"@en .
+
+ns1:Da74857ee-e858-4535-a491-2d89367e2c28 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.coinano.com> ;
+    ns4:title "Coinano"@en ;
+    ns1:countryprofile ns3:Turkey ;
+    ns1:extant false ;
+    ns3:codeISO2 "TR"^^xsd:string ;
+    ns5:prefLabel "Coinano"@en .
+
+ns1:Da753a198-0ac9-4dae-9754-dcccf7534d12 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://nxtportal.org> ;
+    ns4:title "Nxt Monetary System"@en ;
+    ns1:extant true ;
+    ns5:prefLabel "Nxt Monetary System"@en .
+
+ns1:Da831f05e-9f98-401e-9709-b47484a6d9d9 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coinport.com> ;
+    ns4:title "Coinport"@en ;
+    ns1:extant false ;
+    ns5:prefLabel "Coinport"@en .
+
+ns1:Da93767bc-eeb6-4c5d-b655-4186979313a0 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://fortunejack.com> ;
+    ns4:title "FortuneJack"@en ;
+    ns1:countryprofile ns3:Saint_Kitts_and_Nevis ;
+    ns1:extant true ;
+    ns3:codeISO2 "KN"^^xsd:string ;
+    ns5:prefLabel "FortuneJack"@en .
+
+ns1:Da946639e-2aee-448f-8934-6e5f30d2aadd a ns1:CryptocurrencyExchange ;
+    ns2:page <https://btcpool.exchange> ;
+    ns4:title "BTCPool Exchange"@en ;
+    ns1:countryprofile ns3:Australia ;
+    ns1:extant true ;
+    ns3:codeISO2 "AU"^^xsd:string ;
+    ns5:prefLabel "BTCPool Exchange"@en .
+
+ns1:Da9b04dbd-9a33-4054-87b4-e88b3aa77a83 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitbay.net> ;
+    ns4:title "BitBay"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Poland ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "PL"^^xsd:string ;
+    ns5:prefLabel "BitBay"@en .
+
+ns1:Dabe92b2a-250d-4420-8ac0-0c6c5c07a2b5 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://mycelium.com> ;
+    ns4:title "Mycelium"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Mycelium"@en .
+
+ns1:Dafe9d3b2-3512-418e-9f4d-74783dd4143b a ns1:CryptocurrencyExchange ;
+    ns2:page <https://shapeshift.io> ;
+    ns4:title "Shapeshift"@en ;
+    ns1:countryprofile ns3:Switzerland ;
+    ns1:extant true ;
+    ns3:codeISO2 "CH"^^xsd:string ;
+    ns5:prefLabel "Shapeshift"@en .
+
+ns1:Db1f11271-94a7-4c03-a22f-2b85b8a5f46c a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coinedup.com> ;
+    ns4:title "Coined Up"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Coined Up"@en .
+
+ns1:Dbb4cb873-4e4c-423f-a2e1-2c7159774eb5 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://btcmarkets.net> ;
+    ns4:title "BTC Markets"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Australia ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "AU"^^xsd:string ;
+    ns5:prefLabel "BTC Markets"@en .
+
+ns1:Dbeb4030a-d1b8-4f04-aa99-1cdeafd9bf74 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.atomic-trade.com> ;
+    ns4:title "Atomic Trade"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Atomic Trade"@en .
+
+ns1:Dc22f90f2-6031-4f27-b4bb-ed0fa969b52a a ns1:CryptocurrencyExchange ;
+    ns2:page <https://btc-e.com> ;
+    ns4:title "BTC-e"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Russian_Federation__the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "RU"^^xsd:string ;
+    ns5:prefLabel "BTC-e"@en .
+
+ns1:Dc2a5444a-eda6-4b54-97a5-c638d0c1c673 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://ex-crypto.com> ;
+    ns4:title "Ex-Crypto"@en ;
+    ns1:extant true ;
+    ns5:prefLabel "Ex-Crypto"@en .
+
+ns1:Dc431cde8-cfdb-4a10-8d05-d637859cea07 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.itbit.com> ;
+    ns4:title "itBit"@en ;
+    ns1:countryprofile ns3:Singapore ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "SG"^^xsd:string ;
+    ns5:prefLabel "itBit"@en .
+
+ns1:Dc470e2c7-0c7d-4e67-855c-2f035c3cdec0 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://anxbtc.com> ;
+    ns4:title "Anx Btc"@en ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns5:prefLabel "Anx Btc"@en .
+
+ns1:Dc785f220-e301-4d30-8fe6-f59d251afa3d a ns1:CryptocurrencyExchange ;
+    ns2:page <https://takascoin.com> ;
+    ns4:title "Takascoin"@en ;
+    ns1:countryprofile ns3:Turkey ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "TR"^^xsd:string ;
+    ns5:prefLabel "Takascoin"@en .
+
+ns1:Dc82bd06c-29fe-4275-97d1-ae28c0c5139b a ns1:CryptocurrencyExchange ;
+    ns2:page <https://trader.flowbtc.com> ;
+    ns4:title "FlowBTC"@en ;
+    ns1:countryprofile ns3:Brazil ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "BR"^^xsd:string ;
+    ns5:prefLabel "FlowBTC"@en .
+
+ns1:Dc869e6f3-a1d8-49e0-8002-45fd04fbc07c a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.allcrypt.com> ;
+    ns4:title "AllCrypt"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "AllCrypt"@en .
+
+ns1:Dcad851aa-08cf-42ef-95a0-391dc6613b69 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.bit2c.co.il> ;
+    ns4:title "Bit2C"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Israel ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "IL"^^xsd:string ;
+    ns5:prefLabel "Bit2C"@en .
+
+ns1:Dcb5df4cd-0811-4b98-b1e5-17570a8b6b18 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.nix-e.com> ;
+    ns4:title "Nix-e"@en ;
+    ns1:countryprofile ns3:Russian_Federation__the ;
+    ns1:extant true ;
+    ns3:codeISO2 "RU"^^xsd:string ;
+    ns5:prefLabel "Nix-e"@en .
+
+ns1:Dcd3c1058-5fde-4a40-93c6-534d6b85441c a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.litebit.eu> ;
+    ns4:title "LiteBit.eu"@en ;
+    ns1:countryprofile ns3:Netherlands_the ;
+    ns1:extant true ;
+    ns3:codeISO2 "NL"^^xsd:string ;
+    ns5:prefLabel "LiteBit.eu"@en .
+
+ns1:Dcde29a9b-1aa8-470c-bfc0-5b304b478de4 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://exchange.coinbase.com> ;
+    ns4:title "Coinbase Exchange"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Coinbase Exchange"@en .
+
+ns1:Dced2e1a9-e09d-494b-bd40-1ab0e1c975eb a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.btc100.com> ;
+    ns4:title "BTC100"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "BTC100"@en .
+
+ns1:Dcf2d55c8-6406-4401-ae6f-545ad2a96985 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bit-x.com> ;
+    ns4:title "BIT-X"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "BIT-X"@en .
+
+ns1:Dd0fcc926-91bc-4e56-aab5-90e17cb091ac a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.cointrader.net> ;
+    ns4:title "Coin Trader"@en ;
+    ns1:countryprofile ns3:Canada ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CA"^^xsd:string ;
+    ns5:prefLabel "Coin Trader"@en .
+
+ns1:Dd10a85aa-0ce1-4941-bc83-33093e30e1cd a ns1:CryptocurrencyExchange ;
+    ns2:page <https://ccnex.com> ;
+    ns4:title "CCNex"@en ;
+    ns1:countryprofile ns3:Republic_of_Korea__the ;
+    ns1:extant false ;
+    ns3:codeISO2 "KR"^^xsd:string ;
+    ns5:prefLabel "CCNex"@en .
+
+ns1:Dd16f485c-bf3b-4741-bdf6-51f1430ba10b a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitmarket.pl> ;
+    ns4:title "Bit Market"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Poland ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "PL"^^xsd:string ;
+    ns5:prefLabel "Bit Market"@en .
+
+ns1:Dd36191ec-d83d-45f9-b78d-4e1995c646fc a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitex.la> ;
+    ns4:title "Bitex.la"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Argentina ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "AR"^^xsd:string ;
+    ns5:prefLabel "Bitex.la"@en .
+
+ns1:Dd3884bed-9a43-4193-a1a1-cc8440d23c42 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://upbit.org> ;
+    ns4:title "Up Bit"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Cyprus ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CY"^^xsd:string ;
+    ns5:prefLabel "Up Bit"@en .
+
+ns1:Dd65ce56f-79bf-4095-af7f-5f530b551209 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://coinbroker.io> ;
+    ns4:title "Coinbroker.io"@en ;
+    ns1:api "trading"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Coinbroker.io"@en .
+
+ns1:Dd6abf812-f517-4083-a171-de1d1337e2b4 a ns1:CryptocurrencyExchange ;
+    ns2:page <http://www.negociecoins.com.br> ;
+    ns4:title "Negocie Coins"@en ;
+    ns1:countryprofile ns3:Brazil ;
+    ns1:extant true ;
+    ns3:codeISO2 "BR"^^xsd:string ;
+    ns5:prefLabel "Negocie Coins"@en .
+
+ns1:Dd732a04d-b13a-4ee7-ab91-64501829c961 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://crown-ex.com> ;
+    ns4:title "Crown-Ex"@en ;
+    ns1:countryprofile ns3:Czech_Republic_the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CZ"^^xsd:string ;
+    ns5:prefLabel "Crown-Ex"@en .
+
+ns1:Dd8015f82-6ddc-46f9-9fa8-b32934cea3d4 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://monetago.com> ;
+    ns4:title "MonetaGo"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "MonetaGo"@en .
+
+ns1:Ddc72dbf1-031c-4cec-b62e-131faf1ffd73 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://comkort.com> ;
+    ns4:title "Comkort"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Estonia ;
+    ns1:extant false ;
+    ns1:voting "free"@en ;
+    ns3:codeISO2 "EE"^^xsd:string ;
+    ns5:prefLabel "Comkort"@en .
+
+ns1:Ddd286af7-16a2-48b6-8926-7f6fbc5798d7 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bt.cx> ;
+    ns4:title "BTCX"@en ;
+    ns1:countryprofile ns3:Sweden ;
+    ns1:extant true ;
+    ns3:codeISO2 "SE"^^xsd:string ;
+    ns5:prefLabel "BTCX"@en .
+
+ns1:Ddefa4df5-bddd-4361-8f1d-1cc373111908 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.litetree.com> ;
+    ns4:title "Lite Tree"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns1:fiat true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Lite Tree"@en .
+
+ns1:De10d6a16-c11e-499e-8e1b-fddf9972ddfb a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.alfacashier.com> ;
+    ns4:title "Alfacashier"@en ;
+    ns1:countryprofile ns3:Russian_Federation__the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "RU"^^xsd:string ;
+    ns5:prefLabel "Alfacashier"@en .
+
+ns1:De32b8a74-75e2-4d21-bd9e-d72225dbb3f7 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.okcoin.com> ;
+    ns4:title "OKCoin Intl."@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "OKCoin Intl."@en .
+
+ns1:De3703e2b-7408-478e-86c7-2e7912075159 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://xnigma.com> ;
+    ns4:title "Xnigma"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Xnigma"@en .
+
+ns1:De38719d5-f4c9-4908-8e25-0a57a1a8bb51 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.btcgreece.com> ;
+    ns4:title "BTCGreece"@en ;
+    ns1:countryprofile ns3:Greece ;
+    ns1:extant true ;
+    ns3:codeISO2 "GR"^^xsd:string ;
+    ns5:prefLabel "BTCGreece"@en .
+
+ns1:De40b7c6a-a91e-4ccf-8229-dc53a41be7a8 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.coingather.com> ;
+    ns4:title "CoinGather"@en ;
+    ns1:extant true ;
+    ns5:prefLabel "CoinGather"@en .
+
+ns1:De89b549a-2800-4ec6-b9a6-8a95c78c8ff1 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.allcoin.com> ;
+    ns4:title "Allcoin"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:British_Virgin_Islands ;
+    ns1:extant false ;
+    ns1:voting "free"@en ;
+    ns3:codeISO2 "VG"^^xsd:string ;
+    ns5:prefLabel "Allcoin"@en .
+
+ns1:De92016f0-496a-4d0e-9bbf-7caebbb681b3 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bittylicious.com> ;
+    ns4:title "Bittylicious"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "Bittylicious"@en .
+
+ns1:De94e1c19-f67f-4407-b920-83ca4b334851 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.zyado.com> ;
+    ns4:title "Zyado"@en ;
+    ns1:countryprofile ns3:Portugal ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "PT"^^xsd:string ;
+    ns5:prefLabel "Zyado"@en .
+
+ns1:Decf98a32-81af-49d3-8720-fdb9b3a026b2 a ns1:CryptocurrencyExchange ;
+    ns2:page <hhttps://bitso.com> ;
+    ns4:title "Bitso"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Mexico ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "MX"^^xsd:string ;
+    ns5:prefLabel "Bitso"@en .
+
+ns1:Deeee7003-90c3-404a-952c-d8b7ded59f19 a ns1:CryptocurrencyExchange ;
+    ns2:page <http://www.fobcoin.com> ;
+    ns4:title "Fobcoin.com"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant false ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "Fobcoin.com"@en .
+
+ns1:Deef166c7-800e-42b4-bdbc-5b73ebf1907d a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bleutrade.com> ;
+    ns4:title "Bleutrade"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:Brazil ;
+    ns1:extant true ;
+    ns3:codeISO2 "BR"^^xsd:string ;
+    ns5:prefLabel "Bleutrade"@en .
+
+ns1:Df0643a71-f865-4b4a-b483-add89f2f6c70 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://yobit.net> ;
+    ns4:title "YoBit"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "YoBit"@en .
+
+ns1:Df2097216-c2bd-4319-b081-abba2ba0e8bc a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.mintpal.com> ;
+    ns4:title "MintPal"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant false ;
+    ns1:voting "free"@en ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "MintPal"@en .
+
+ns1:Df2e9c9fc-346c-490f-bdf5-4c77e37b50e2 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.yuanbaohui.com> ;
+    ns4:title "Yuanbaohui"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant true ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "Yuanbaohui"@en .
+
+ns1:Df330af1d-20bf-4d06-9ec5-aae68d200681 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://ybex.co> ;
+    ns4:title "YBex"@en ;
+    ns1:countryprofile ns3:China ;
+    ns1:extant false ;
+    ns3:codeISO2 "CN"^^xsd:string ;
+    ns5:prefLabel "YBex"@en .
+
+ns1:Df4abbafd-b092-4fb3-8a3a-a7e87be5b063 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitshares.openledger.info> ;
+    ns4:title "BitShares Asset Exchange"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "BitShares Asset Exchange"@en .
+
+ns1:Df665e92d-d6a8-4b42-ad2b-ec773c8abc40 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://quadrigacx.com> ;
+    ns4:title "Quadriga CX"@en ;
+    ns1:countryprofile ns3:Canada ;
+    ns1:extant true ;
+    ns3:codeISO2 "CA"^^xsd:string ;
+    ns5:prefLabel "Quadriga CX"@en .
+
+ns1:Df74a273b-7461-43ec-9e6f-18d3e7109e85 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.lakebtc.com> ;
+    ns4:title "LakeBTC"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "LakeBTC"@en .
+
+ns1:Df8d48d21-176c-4201-ba39-299f46092d33 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.bitstamp.net> ;
+    ns4:title "Bitstamp"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "GB"^^xsd:string ;
+    ns5:prefLabel "Bitstamp"@en .
+
+ns1:Dfa420064-7c25-4177-9e34-23fc4bfcd2e5 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.altquick.co> ;
+    ns4:title "AltQuick"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "AltQuick"@en .
+
+ns1:Dfa572b95-6077-4bfe-a41e-3205533816c9 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://askcoin.net> ;
+    ns4:title "Ask Coin"@en ;
+    ns1:extant true ;
+    ns1:voting "free"@en ;
+    ns5:prefLabel "Ask Coin"@en .
+
+ns1:Dfe7a3535-f6c9-43a7-b3c3-8961f9c35b39 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://bitcoinsnorway.com> ;
+    ns4:title "Bitcoins Norway"@en ;
+    ns1:countryprofile ns3:Norway ;
+    ns1:extant true ;
+    ns1:fiat true ;
+    ns3:codeISO2 "NO"^^xsd:string ;
+    ns5:prefLabel "Bitcoins Norway"@en .
+
+ns1:Dff55cae5-a4bb-4ec3-a460-f71bfa7e72c0 a ns1:CryptocurrencyExchange ;
+    ns2:page <https://www.cryptsy.com> ;
+    ns4:title "Cryptsy"@en ;
+    ns1:api "listing"@en ;
+    ns1:countryprofile ns3:United_States_of_America ;
+    ns1:extant false ;
+    ns3:codeISO2 "US"^^xsd:string ;
+    ns5:prefLabel "Cryptsy"@en .
+
