@@ -585,7 +585,7 @@
 <http://purl.org/net/bel-epa/cce#D5f160fd6-dcca-4251-8162-6f84b1fa798e> <http://www.w3.org/2004/02/skos/core#prefLabel> "Bx Thailand"@en .
 <http://purl.org/net/bel-epa/cce#D5f7dcd3b-d354-464f-aebc-0a4a03dd01e0> <http://daml.umbc.edu/ontologies/cobra/0.4/foaf/page> <https://alterdice.com> .
 <http://purl.org/net/bel-epa/cce#D5f7dcd3b-d354-464f-aebc-0a4a03dd01e0> <http://purl.org/dc/elements/1.1/title> "Alter Dice"@en .
-<http://purl.org/net/bel-epa/cce#D5f7dcd3b-d354-464f-aebc-0a4a03dd01e0> <http://purl.org/net/bel-epa/cce#extant> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://purl.org/net/bel-epa/cce#D5f7dcd3b-d354-464f-aebc-0a4a03dd01e0> <http://purl.org/net/bel-epa/cce#extant> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <http://purl.org/net/bel-epa/cce#D5f7dcd3b-d354-464f-aebc-0a4a03dd01e0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/net/bel-epa/cce#CryptocurrencyExchange> .
 <http://purl.org/net/bel-epa/cce#D5f7dcd3b-d354-464f-aebc-0a4a03dd01e0> <http://www.w3.org/2004/02/skos/core#prefLabel> "Alter Dice"@en .
 <http://purl.org/net/bel-epa/cce#D62f220ba-9945-424f-b216-72de5f3fa2ab> <http://daml.umbc.edu/ontologies/cobra/0.4/foaf/page> <https://www.bitorado.com> .
