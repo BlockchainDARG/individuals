@@ -670,7 +670,7 @@ cce:D5f160fd6-dcca-4251-8162-6f84b1fa798e a cce:CryptocurrencyExchange ;
 cce:D5f7dcd3b-d354-464f-aebc-0a4a03dd01e0 a cce:CryptocurrencyExchange ;
     foaf:page <https://alterdice.com> ;
     dc:title "Alter Dice"@en ;
-    cce:extant true ;
+    cce:extant false ;
     skos:prefLabel "Alter Dice"@en .
 
 cce:D62f220ba-9945-424f-b216-72de5f3fa2ab a cce:CryptocurrencyExchange ;
