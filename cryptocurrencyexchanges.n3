@@ -1767,3 +1767,20 @@ cce:Dff55cae5-a4bb-4ec3-a460-f71bfa7e72c0 a cce:CryptocurrencyExchange ;
     geo:codeISO2 "US"^^xsd:string ;
     skos:prefLabel "Cryptsy"@en .
 
+cce:Dd3166b77-2167-4022-b8b9-b21af5fa36d5 a cce:CryptocurrencyExchange ;
+    foaf:page <https://bloombit.com> ;
+    dc:title "Bloombit"@en ;
+    cce:api "trading"@en ;
+    cce:countryprofile geo:United_Kingdom_of_Great_Britain_and_Northern_Ireland__the ;
+    cce:extant true ;
+    cce:fiat false ;
+    geo:codeISO2 "GB"^^xsd:string ;
+    skos:prefLabel "Bloombit"@en .
+
+cce:D95add576-67c7-44d0-8eb4-64a62e78c0e3 a cce:CryptocurrencyExchange ;
+    foaf:page <https://vixtrade.net> ;
+    dc:title "Vixtrade"@en ;
+    cce:api "trading"@en ;
+    cce:extant true ;
+    cce:fiat false ;
+    skos:prefLabel "Vixtrade"@en .
